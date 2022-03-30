@@ -58,4 +58,6 @@ steps:
     ScriptType: 'Inline Script'
     InlineScript: |
       cd ..
-      php artisan code::cache
+      php artisan config:cache
+      php artisan route:cache
+      php artisan view:cache
