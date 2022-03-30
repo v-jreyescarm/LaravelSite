@@ -52,7 +52,7 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'MAIC - TEK Experts CR - v-gengon Group#1(90d7af21-b3a1-4bf8-a149-8e1fcc47e337)'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     WebAppName: 'PhpWebApp-2203070040006783'
     packageForLinux: '$(System.DefaultWorkingDirectory)/build.zip'
     ScriptType: 'Inline Script'
