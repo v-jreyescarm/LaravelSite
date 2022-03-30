@@ -44,7 +44,7 @@ steps:
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
-    archiveFile: '$(System.DefaultWorkingDirectory)/build'
+    archiveFile: '$(System.DefaultWorkingDirectory)/build.zip'
     archiveType: 'zip'
     replaceExistingArchive: true
 
@@ -54,7 +54,7 @@ steps:
     azureSubscription: 'MAIC - TEK Experts CR - v-gengon Group#1(90d7af21-b3a1-4bf8-a149-8e1fcc47e337)'
     appType: 'webApp'
     WebAppName: 'PhpWebApp-2203070040006783'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/build'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/build.zip'
     ScriptType: 'Inline Script'
     InlineScript: |
       cd ..
