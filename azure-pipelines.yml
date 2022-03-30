@@ -58,7 +58,6 @@ steps:
     RuntimeStack: 'PHP|7.4'
     ScriptType: 'Inline Script'
     InlineScript: |
-      cd ..
       php artisan config:cache
       php artisan route:cache
       php artisan view:cache
