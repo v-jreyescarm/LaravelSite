@@ -55,6 +55,7 @@ steps:
     appType: 'webAppLinux'
     WebAppName: 'PhpWebApp-2203070040006783'
     packageForLinux: '$(System.DefaultWorkingDirectory)/build.zip'
+    RuntimeStack: 'PHP|7.4'
     ScriptType: 'Inline Script'
     InlineScript: |
       cd ..
